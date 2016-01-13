@@ -31,6 +31,5 @@
   },
   "_source": "git://github.com/maker/ratchet.git",
   "_target": "~2.0.2",
-  "_originalSource": "ratchet",
-  "_direct": true
+  "_originalSource": "ratchet"
 }
