@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="systems.algotrading.forexadvisor" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="systems.algotrading.forexadvisor" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ForexAdvisor</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        FOREX Advisor - application for traders by trades. Trade signals with perfect win rate.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="support@algotrading.systems" href="https://algotrading.systems/en/apps/forex-advisor/">
+        AlgoTrading.Systems Team
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
