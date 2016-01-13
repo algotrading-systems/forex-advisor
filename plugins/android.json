@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "systems.algotrading.forexadvisor"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "systems.algotrading.forexadvisor"
         }
     },
     "dependent_plugins": {}
