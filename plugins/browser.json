@@ -12,6 +12,9 @@
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "systems.algotrading.forexadvisor"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "systems.algotrading.forexadvisor"
         }
     },
     "dependent_plugins": {}

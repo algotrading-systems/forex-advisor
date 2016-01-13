@@ -23,6 +23,9 @@
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "systems.algotrading.forexadvisor"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "systems.algotrading.forexadvisor"
         }
     },
     "dependent_plugins": {},
@@ -56,10 +59,19 @@
             "id": "cordova-plugin-camera.CameraProxy",
             "pluginId": "cordova-plugin-camera",
             "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+            "id": "cordova-plugin-x-socialsharing.SocialSharing",
+            "pluginId": "cordova-plugin-x-socialsharing",
+            "clobbers": [
+                "window.plugins.socialsharing"
+            ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.0",
-        "cordova-plugin-camera": "1.2.0"
+        "cordova-plugin-camera": "1.2.0",
+        "cordova-plugin-x-socialsharing": "5.0.9"
     }
 }
