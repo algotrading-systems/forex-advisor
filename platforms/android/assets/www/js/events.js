@@ -19,8 +19,7 @@
             $('#share-container').show();
 
         }, function(errorMessage){
-            alert('The following error occurred: ' + errorMessage);
-            console.error('The following error occurred: ' + errorMessage);
+            console.log('The following error occurred: ' + errorMessage);
         }, cameraOptions);
 
     });
