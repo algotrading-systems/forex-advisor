@@ -3,3 +3,7 @@
 
 # Bower components
 /www/bower_components
+
+# Platforms and plugins
+/platforms
+/plugins
