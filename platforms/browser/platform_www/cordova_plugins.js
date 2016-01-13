@@ -44,7 +44,8 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.2.0",
     "cordova-plugin-camera": "1.2.0",
-    "cordova-plugin-x-socialsharing": "5.0.9"
+    "cordova-plugin-x-socialsharing": "5.0.9",
+    "cordova-plugin-crosswalk-webview": "1.4.0"
 }
 // BOTTOM OF METADATA
 });

@@ -15,6 +15,9 @@
         },
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "systems.algotrading.forexadvisor"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "systems.algotrading.forexadvisor"
         }
     },
     "dependent_plugins": {}

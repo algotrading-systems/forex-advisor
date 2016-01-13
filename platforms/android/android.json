@@ -19,6 +19,26 @@
                         {
                             "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"webView\" value=\"org.crosswalk.engine.XWalkWebViewEngine\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"15+\" name=\"xwalkVersion\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"--disable-pull-to-refresh-effect\" name=\"xwalkCommandLine\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"embedded\" name=\"xwalkMode\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"true\" name=\"xwalkMultipleApk\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -29,6 +49,14 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
                             "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -43,6 +71,9 @@
             "PACKAGE_NAME": "systems.algotrading.forexadvisor"
         },
         "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "systems.algotrading.forexadvisor"
+        },
+        "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "systems.algotrading.forexadvisor"
         }
     },
@@ -98,6 +129,7 @@
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.0",
         "cordova-plugin-camera": "1.2.0",
-        "cordova-plugin-x-socialsharing": "5.0.9"
+        "cordova-plugin-x-socialsharing": "5.0.9",
+        "cordova-plugin-crosswalk-webview": "1.4.0"
     }
 }
