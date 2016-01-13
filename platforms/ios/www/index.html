@@ -1,0 +1,34 @@
+<!DOCTYPE html>-->
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/ratchet/dist/css/ratchet.min.css">
+        <title>FOREX Advisor</title>
+    </head>
+    <body>
+        <header class="bar bar-nav">
+            <h1 class="title">FOREX Advisor</h1>
+        </header>
+
+        <div class="content">
+            <div class="card">
+                <button class="btn btn-block btn-primary" id="take-picture">Take Picture</button>
+            </div>
+
+            <div class="card" id="share-container">
+                <img id="photo" src="#">
+                <form>
+                    <input type="text" id="caption" placeholder="Caption">
+                    <button class="btn btn-positive btn-block" id="share">Share</button>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="js/events.js"></script>
+    </body>
+</html>

@@ -15,11 +15,11 @@
         navigator.camera.getPicture(function(imageURI){
             var image = $('#photo');
             image.attr('src', imageURI);
-            console.log('Taken image: ' + imageURI);
+            // console.log('Taken image: ' + imageURI);
             $('#share-container').show();
 
         }, function(errorMessage){
-            console.log('The following error occurred: ' + errorMessage);
+            alert('The following error occurred: ' + errorMessage);
         }, cameraOptions);
 
     });

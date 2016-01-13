@@ -1,0 +1,30 @@
+{
+  "name": "forex-advisor",
+  "homepage": "https://github.com/algotrading-systems/forex-advisor",
+  "authors": [
+    "La Sayter <lasayter@outlook.com>"
+  ],
+  "description": "Forex Advisor application for traders and by traders. Trade signals with perfect profitability.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "FOREX",
+    "Binary",
+    "Options",
+    "Trade",
+    "Signals"
+  ],
+  "license": "MIT7",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ratchet": "~2.0.2",
+    "jquery": "~2.2.0"
+  }
+}
