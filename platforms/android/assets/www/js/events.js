@@ -2,7 +2,7 @@
 
     $('#take-picture').click(function(){
 
-        var camerOptions = {
+        var cameraOptions = {
             quality: 90,
             destinationType: Camera.DestinationType.FILE_URI,
             encodingType: Camera.EncodingType.JPEG,
@@ -10,15 +10,18 @@
             targetHeight: 350
         };
 
-        navigator.camera.getPicture(function(imageURI){
+        console.log('Camera option:', cameraOptions);
 
+        navigator.camera.getPicture(function(imageURI){
             var image = $('#photo');
             image.attr('src', imageURI);
+            console.log('Taken image: ' + imageURI);
             $('#share-container').show();
 
         }, function(errorMessage){
-            alert('The following error occured: ' + errorMessage)
-        }, camerOptions);
+            alert('The following error occurred: ' + errorMessage);
+            console.error('The following error occurred: ' + errorMessage);
+        }, cameraOptions);
 
     });
 
